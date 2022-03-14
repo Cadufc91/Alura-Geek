@@ -11,10 +11,9 @@ import StarWars4 from '../../assets/images/star-wars4.png';
 const Products = () => {
     return(
         <div className='products'>
-           <div className='products- top'>
+           <div className='products-top'>
                 <h2 className='products-title'>Star Wars</h2>
-                <a className='products-link-top' href="#p">Ver Tudo</a>
-                <BsArrowRight  />
+                <a className='products-link-top' href="#p">Ver Tudo <BsArrowRight  /></a>
            </div>
            <div className='container'>
                 <div className='box'>

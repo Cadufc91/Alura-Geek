@@ -1,23 +1,23 @@
-.products{
+.miscellaneous{
     position: absolute;
-    margin-top: 12rem;
+    margin-top: 96rem;
     width: 360px;
     margin-left: 1rem;
 }
 
-.products-top{
+.miscellaneous-top{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.products-title{
+.miscellaneous-title{
     font-size: 1.375rem;
     color: #464646;
 }
 
-.products-link-top{
+.miscellaneous-link-top{
     font-size: 0.875rem;
     color: #2A7AE4;
     text-decoration: none;
@@ -34,7 +34,7 @@
     margin-bottom: 1rem;
 }
 
-.product-image{
+.miscellaneous-image{
     width: 9.75rem;
     height: 10.875rem;
 }
@@ -46,14 +46,14 @@
     color: #464646;
 }
 
-.box-product-price{
+.box-miscellaneous-price{
     font-size: 1rem;
     font-weight: 700;
     color: #464646;
     margin-top: 0.5rem;
 }
 
-.box-product-details{
+.box-miscellaneous-details{
     font-size: 0.875rem;
     font-weight: 700;
     color: #2A7AE4;
