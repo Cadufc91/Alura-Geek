@@ -10,8 +10,8 @@ import Consoles4 from '../../assets/images/consoles4.png';
 
 const Consoles = () => {
     return(
-        <div className='consoles-container'>
-            <div className='consoles'>
+        <div className='consoles'>
+            <div className='consoles-container'>
                 <div className='consoles-top'>
                         <h2 className='consoles-title'>Consoles</h2>
                         <a className='consoles-link-top' href="#p">Ver Tudo <BsArrowRight  /></a>

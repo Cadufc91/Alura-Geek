@@ -11,8 +11,8 @@ import Miscellaneous4 from '../../assets/images/miscellaneous4.png';
 
 const Miscellaneous = () => {
     return(
-        <div className='miscellaneous-container'>
-            <div className='miscellaneous'>
+        <div className='miscellaneous'>
+            <div className='miscellaneous-container'>
                 <div className='miscellaneous-top'>
                         <h2 className='miscellaneous-title'>Diversos</h2>
                         <a className='miscellaneous-link-top' href="#p">Ver Tudo <BsArrowRight  /></a>
