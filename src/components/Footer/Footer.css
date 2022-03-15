@@ -118,3 +118,35 @@
     text-decoration: none;
     font-size: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .footer-container {
+        margin-top: 98rem;
+    }
+
+    .footer-top{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .footer-logo{
+        margin-left: 2.31rem;
+    }
+
+    .footer-links{
+        float: left;
+        display: flex;
+        align-items: flex-start;
+        margin-right: 5.87rem;
+    }
+
+    .footer-contact{
+        position: relative;
+        top: -4.5rem;
+    }
+    
+    .footer-contact-name,
+    .footer-contact-message {
+        width: 26rem;
+    }
+}
