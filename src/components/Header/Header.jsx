@@ -10,7 +10,7 @@ const Header = () => {
             <div className='header-title'>Alura<span className='header-title-colored'>Geek</span></div>
             <button className='login-btn'>Login</button>
             <BsSearch className='search-btn'/>
-            <input className='search' type="text" />
+            <input className='search' type="text" placeholder='O que deseja encontrar?'/>
         </div>
     )
 }

@@ -59,3 +59,23 @@
     margin-top: 0.5rem;
     text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+    .consoles{
+        margin-top: 47.25rem;
+        margin-left: 2rem;
+        width: 44rem;
+    }
+
+    .consoles-link-top{
+        font-size: 1rem;
+    }
+
+    .consoles-image{
+        width: 10.25rem;
+    }
+
+    .box-consoles-details{
+        font-size: 1rem;
+    }
+}
