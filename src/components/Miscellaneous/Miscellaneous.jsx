@@ -11,7 +11,7 @@ import Miscellaneous4 from '../../assets/images/miscellaneous4.png';
 
 const Miscellaneous = () => {
     return(
-        <div>
+        <div className='miscellaneous-container'>
             <div className='miscellaneous'>
                 <div className='miscellaneous-top'>
                         <h2 className='miscellaneous-title'>Diversos</h2>

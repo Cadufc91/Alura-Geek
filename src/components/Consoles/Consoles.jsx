@@ -10,7 +10,7 @@ import Consoles4 from '../../assets/images/consoles4.png';
 
 const Consoles = () => {
     return(
-        <div>
+        <div className='consoles-container'>
             <div className='consoles'>
                 <div className='consoles-top'>
                         <h2 className='consoles-title'>Consoles</h2>
