@@ -7,6 +7,8 @@ import StarWars1 from '../../assets/images/star-wars.png';
 import StarWars2 from '../../assets/images/star-wars2.png';
 import StarWars3 from '../../assets/images/star-wars3.png';
 import StarWars4 from '../../assets/images/star-wars4.png';
+import StarWars5 from '../../assets/images/star-wars5.png';
+import StarWars6 from '../../assets/images/star-wars6.png';
 
 const Products = () => {
     return(
@@ -36,6 +38,18 @@ const Products = () => {
                 </div>
                 <div className='box'>
                     <img className='product-image' src={StarWars4} alt="" />
+                    <h3 className='box-image-title'>Produto XYZ</h3>
+                    <p className='box-product-price'>R$ 60,00</p>
+                    <a className='box-product-details' href="#d">Ver Produto</a>
+                </div>
+                <div className='box desktop'>
+                    <img className='product-image' src={StarWars5} alt="" />
+                    <h3 className='box-image-title'>Produto XYZ</h3>
+                    <p className='box-product-price'>R$ 60,00</p>
+                    <a className='box-product-details' href="#d">Ver Produto</a>
+                </div>
+                <div className='box desktop'>
+                    <img className='product-image' src={StarWars6} alt="" />
                     <h3 className='box-image-title'>Produto XYZ</h3>
                     <p className='box-product-price'>R$ 60,00</p>
                     <a className='box-product-details' href="#d">Ver Produto</a>

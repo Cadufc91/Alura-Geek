@@ -1,5 +1,5 @@
 .header-container{
-    width: 100vw;
+    width: 23.4375rem;
     height: 4.75rem ;
     display: flex;
     flex-direction: row;
@@ -32,6 +32,7 @@
     border: 0.1875rem solid #2A7AE4;
     font-size: 0.875rem;
     color: #2A7AE4;
+    cursor: pointer;
 }
 
 .search-btn{
@@ -86,5 +87,36 @@
         margin-left: 35.6rem;
         position: absolute;
         width: 10.38rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .header-container{
+        width: 71rem;
+        height: 7.20rem;
+        margin: 0 9.5rem;
+    }
+
+    .console{
+        width: 2.5rem;
+        height: 3rem;
+        margin-left: 0;
+    }
+
+    .header-title-colored{
+        margin-right: 2rem;
+    }
+
+    .login-btn{
+        margin-left: 60rem;
+    }
+
+    .search{
+        width: 25rem;
+    }
+
+    .search-btn{
+        position: relative;
+        left: 25rem;
     }
 }

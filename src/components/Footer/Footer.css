@@ -103,6 +103,7 @@
     font-size: 0.875rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .footer-copyright{
@@ -143,10 +144,47 @@
     .footer-contact{
         position: relative;
         top: -4.5rem;
+        display: flex;
+        flex-direction: column;
     }
     
     .footer-contact-name,
     .footer-contact-message {
         width: 26rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-container{
+        width: 100vw;
+        height: 23rem;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top: 4rem;
+    }
+
+    .footer-logo{
+        margin-left: 9.5rem;
+        margin-right: 4rem;
+    }
+
+    .footer-links{
+        width: 12rem;
+    }
+
+    .footer-contact{
+        margin-top: 4.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-contact-name,
+    .footer-contact-message{
+        width: 35rem;
+    }
+
+    .footer-copyright{
+        width: 90rem;
     }
 }

@@ -9,6 +9,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 21.5rem;
 }
 
 .consoles-title{
@@ -60,6 +61,10 @@
     text-decoration: none;
 }
 
+.desktop{
+    visibility: hidden;
+}
+
 @media screen and (min-width: 768px) {
     .consoles{
         margin-top: 47.25rem;
@@ -77,5 +82,24 @@
 
     .box-consoles-details{
         font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .consoles{
+        margin-left: 9.5rem;
+        width: 71rem;
+    }
+
+    .consoles-title{
+        font-size: 2rem;
+    }
+
+    .consoles-image{
+        width: 11rem;
+    }
+
+    .desktop{
+        visibility: visible;
     }
 }

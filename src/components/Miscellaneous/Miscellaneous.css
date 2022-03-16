@@ -9,6 +9,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 21.5rem;
 }
 
 .miscellaneous-title{
@@ -60,6 +61,10 @@
     text-decoration: none;
 }
 
+.desktop{
+    visibility: hidden;
+}
+
 @media screen and (min-width: 768px) {
     .miscellaneous{
         margin-top: 72rem;
@@ -77,5 +82,24 @@
 
     .box-miscellaneous-details{
         font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .miscellaneous{
+        margin-left: 9.5rem;
+        width: 71rem;
+    }
+
+    .miscellaneous-title{
+        font-size: 2rem;
+    }
+
+    .miscellaneous-image{
+        width: 11rem;
+    }
+
+    .desktop{
+        visibility: visible;
     }
 }
