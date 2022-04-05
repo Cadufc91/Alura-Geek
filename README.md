@@ -4,6 +4,24 @@
 
 # Changelog
 
+## [2.4.4] 05.04.2022
+
+**Added**
+- Page order @ App.css file
+- New Login page added
+
+**Changed**
+- Header and Footer import from App.jsx to 
+- Footer section top margin value
+- Consoles, Miscellaneous and Products position, top margin and width values
+- Folders structure changed by pages
+- Images paths changed to reflect new folder structure
+- Banner image changed into CSS background image
+- 
+
+**Removed**
+- Banner image from Promo.jsx file
+
 ## [1.4.4] 16.03.2022
 
 **Added**
