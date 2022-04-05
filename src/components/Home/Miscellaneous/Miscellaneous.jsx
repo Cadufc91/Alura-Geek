@@ -3,12 +3,12 @@ import React from 'react';
 import './Miscellaneous.css';
 
 import { BsArrowRight } from 'react-icons/bs';
-import Miscellaneous1 from '../../assets/images/miscellaneous.png';
-import Miscellaneous2 from '../../assets/images/miscellaneous2.png';
-import Miscellaneous3 from '../../assets/images/miscellaneous3.png';
-import Miscellaneous4 from '../../assets/images/miscellaneous4.png';
-import Miscellaneous5 from '../../assets/images/miscellaneous5.png';
-import Miscellaneous6 from '../../assets/images/miscellaneous6.png';
+import Miscellaneous1 from '../../../assets/images/miscellaneous.png';
+import Miscellaneous2 from '../../../assets/images/miscellaneous2.png';
+import Miscellaneous3 from '../../../assets/images/miscellaneous3.png';
+import Miscellaneous4 from '../../../assets/images/miscellaneous4.png';
+import Miscellaneous5 from '../../../assets/images/miscellaneous5.png';
+import Miscellaneous6 from '../../../assets/images/miscellaneous6.png';
 
 
 

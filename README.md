@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Alura Geek Project - Alura Challenge 3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Demo](https://alura-geek-cadu.netlify.app/)
 
-## Available Scripts
+# Changelog
 
-In the project directory, you can run:
+## [1.4.4] 16.03.2022
 
-### `npm start`
+**Added**
+- Products, consoles and miscellaneous extra images 
+- Desktop responsive feature (1440px) @ full page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## [1.3.4] 15.03.2022
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Added**
+- Tablet responsive feature (768px) @ footer and miscellaneous section
 
-### `npm test`
+**Removed**
+- font-size valeu from products title
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## [1.3.3] 15.03.2022
 
-### `npm run build`
+**Added**
+- Tablet responsive feature (768px) @ console, header, products and promo section
+- Added placeholder in search box
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## [1.3.3] 15.03.2022
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Changed** 
+- Main div class @ Consoles.jsx and Miscellaneous.jsx file
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Removed**
+- Width value @ consoles, miscellaneous and products section 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## [1.3.2] 15.03.2022
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Added**
+- Footer section (JSX and CSS)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Changed**
+- Main div class changed @ Consoles.jsx file
+- Main div class changed @ Miscellaneous.jsx file
 
-## Learn More
+## [1.2.1] 14.03.2022
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Added**
+- Consoles and Miscellaneous section (JSX and CSS)
+- Consoles section images
+- Miscellaneous section images
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Changed** 
+- Margin fixed @ Products.css file
+- Arrow icon fixed @ Products.css file
 
-### Code Splitting
+## [1.1.0] 14.03.2022
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Changed**
+- HTML language to Brazilian Portuguese
+- index.js file changed to index.jsx
 
-### Analyzing the Bundle Size
+**Added**
+- Page title
+- Header, Promo and Products section (JSX and CSS)
+- Banner image
+- Logo
+- Product section images
+- React functionality into index file
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Removed**
+- Original features from 'create-react-app'
+- App.css file cleaned
+- App.js file
+- App.test.js file
+- logo.svg, reportWebVitals.js and setupTests.js files 
 
-### Making a Progressive Web App
+## [1.0.0] 14.03.2022
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Everything!

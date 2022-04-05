@@ -1,0 +1,17 @@
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    order: 1;
+}
+
+.App,
+.login-page{
+    order: 2;
+}
+
+.footer{
+    order: 3;
+}

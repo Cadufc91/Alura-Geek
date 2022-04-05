@@ -1,17 +1,13 @@
 .banner{
-    width: 23.4375rem;
-}
-
-.banner-img{
-    width: 22.5rem;
+    width: 100vw;
+    background-image: url(../../../assets/images/banner-image.png);
+    background-size: cover;
     height: 12rem;
-    position: absolute;
-    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner-info{
-    position: relative;
-    z-index: 1;
     color: #FFFFFF;
     margin-left: 1rem;
 }
@@ -68,7 +64,7 @@
 
 @media screen and (min-width: 1440px) {
     .banner-img{
-        width: 100vw;
+        width: 89.5vw;
     }
 
     .banner-info{

@@ -3,12 +3,12 @@ import React from 'react';
 import './Consoles.css';
 
 import { BsArrowRight } from 'react-icons/bs';
-import Consoles1 from '../../assets/images/consoles.png';
-import Consoles2 from '../../assets/images/consoles2.png';
-import Consoles3 from '../../assets/images/consoles3.png';
-import Consoles4 from '../../assets/images/consoles4.png';
-import Consoles5 from '../../assets/images/consoles5.png';
-import Consoles6 from '../../assets/images/consoles6.png';
+import Consoles1 from '../../../assets/images/consoles.png';
+import Consoles2 from '../../../assets/images/consoles2.png';
+import Consoles3 from '../../../assets/images/consoles3.png';
+import Consoles4 from '../../../assets/images/consoles4.png';
+import Consoles5 from '../../../assets/images/consoles5.png';
+import Consoles6 from '../../../assets/images/consoles6.png';
 
 const Consoles = () => {
     return(
