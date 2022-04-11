@@ -1,27 +1,26 @@
 .consoles{
-    position: static;
-    margin-top: -19.25rem;
     margin-left: 1rem;
+    position: static;
 }
 
 .consoles-top{
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     width: 20.45rem;
 }
 
 .consoles-title{
-    font-size: 1.375rem;
     color: #464646;
+    font-size: 1.375rem;
 }
 
 .consoles-link-top{
-    font-size: 0.875rem;
     color: #2A7AE4;
-    text-decoration: none;
+    font-size: 0.875rem;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .container{
@@ -35,39 +34,35 @@
 }
 
 .consoles-image{
-    width: 9.75rem;
     height: 10.875rem;
+    width: 9.75rem;
 }
 
 .box-image-title{
+    color: #464646;
     font-size: 0.875rem;
     font-weight: 500;
     margin-top: 0.5rem;
-    color: #464646;
 }
 
 .box-consoles-price{
+    color: #464646;
     font-size: 1rem;
     font-weight: 700;
-    color: #464646;
     margin-top: 0.5rem;
 }
 
 .box-consoles-details{
+    color: #2A7AE4;
     font-size: 0.875rem;
     font-weight: 700;
-    color: #2A7AE4;
     margin-top: 0.5rem;
     text-decoration: none;
 }
 
-.desktop{
-    visibility: hidden;
-}
 
 @media screen and (min-width: 768px) {
     .consoles{
-        margin-top: 47.25rem;
         margin-left: 2rem;
         width: 44rem;
     }
@@ -105,9 +100,5 @@
 
     .consoles-image{
         width: 11rem;
-    }
-
-    .desktop{
-        visibility: visible;
     }
 }

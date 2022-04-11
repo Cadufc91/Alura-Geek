@@ -1,0 +1,35 @@
+.login-page{
+    align-items: center;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    height: 11.81rem;
+    padding: 6rem 0 5rem 0;
+}
+
+.login-page__title{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.login-page__user-info{
+    border: none;
+    height: 2.6rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    width: 17.18rem;
+}
+
+.login-page__user-info::placeholder{
+    color: #A2A2A2;
+    font-size: 1rem;
+    margin-left: 0.75rem;
+}
+
+.login-page__btn{
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    height: 2.5rem;
+    width: 6.81rem;
+}

@@ -45,13 +45,13 @@ const Miscellaneous = () => {
                             <p className='box-miscellaneous-price'>R$ 60,00</p>
                             <a className='box-miscellaneous-details' href="#d">Ver Produto</a>
                         </div>
-                        <div className='box desktop'>
+                        <div className='box'>
                             <img className='miscellaneous-image' src={Miscellaneous5} alt="" />
                             <h3 className='box-image-title'>Controle e console XYZ</h3>
                             <p className='box-miscellaneous-price'>R$ 60,00</p>
                             <a className='box-miscellaneous-details' href="#d">Ver Produto</a>
                         </div>
-                        <div className='box desktop'>
+                        <div className='box'>
                             <img className='miscellaneous-image' src={Miscellaneous6} alt="" />
                             <h3 className='box-image-title'>Controle e console XYZ</h3>
                             <p className='box-miscellaneous-price'>R$ 60,00</p>

@@ -42,13 +42,13 @@ const Products = () => {
                     <p className='box-product-price'>R$ 60,00</p>
                     <a className='box-product-details' href="#d">Ver Produto</a>
                 </div>
-                <div className='box desktop'>
+                <div className='box'>
                     <img className='product-image' src={StarWars5} alt="" />
                     <h3 className='box-image-title'>Produto XYZ</h3>
                     <p className='box-product-price'>R$ 60,00</p>
                     <a className='box-product-details' href="#d">Ver Produto</a>
                 </div>
-                <div className='box desktop'>
+                <div className='box'>
                     <img className='product-image' src={StarWars6} alt="" />
                     <h3 className='box-image-title'>Produto XYZ</h3>
                     <p className='box-product-price'>R$ 60,00</p>

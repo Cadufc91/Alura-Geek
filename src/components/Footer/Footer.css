@@ -1,28 +1,27 @@
 .footer-container{
-    margin-top: -18rem;
     background: #EAF2FD;
 }
 
 .footer-logo{
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
     margin-left: 6rem;
 }
 
 .footer-console{
-    margin-top: 1.6rem;
     color: #2A7AE4;
     font-size: 3.5rem;
     margin-right: 1.5rem;
+    margin-top: 1.6rem;
 }
 
 .footer-title{
     color: #2A7AE4;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-left: -1.5rem;
     margin-top: 1.6rem;
-    font-size: 1.5rem;
 }
 
 .footer-title-colored{
@@ -30,10 +29,10 @@
 }
 
 .footer-links{
-    list-style: none;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    list-style: none;
 }
 
 .footer-links li{
@@ -41,10 +40,10 @@
 }
 
 .footer-links li a{
-    text-decoration: none;
-    font-size: 1.1rem;
     color: #464646;
+    font-size: 1.1rem;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .footer-contact{
@@ -52,79 +51,75 @@
 }
 
 .footer-contact-title{
+    color: #464646;
     font-size: 1.1rem;
     font-weight: 700 bold;
-    color: #464646;
     margin-bottom: 0.5rem;
 }
 
 .footer-contact-name{
     background: #FFFFFF;
-    width: 20.5rem;
-    height: 3.5rem;
-    font-size: 1rem;
-    border-radius: 0.25rem;
     border: none;
+    border-radius: 0.25rem;
     box-shadow: 0 0.07rem #C8C8C8;
+    font-size: 1rem;
+    height: 3.5rem;
     margin-bottom: 1rem;
+    width: 20.5rem;
 }
 
 .footer-contact-name::placeholder{
     color: #A2A2A2;
+    left: 0.75rem;
     position: absolute;
     top: 0.5rem;
-    left: 0.75rem;
 }
 
 .footer-contact-message{
     background: #FFFFFF;
-    width: 20.5rem;
-    height: 5.125rem;
-    font-size: 1rem;
-    border-radius: 0.25rem;
     border: none;
+    border-radius: 0.25rem;
     box-shadow: 0 0.07rem #C8C8C8;
+    font-size: 1rem;
+    height: 5.125rem;
     margin-bottom: 0.5rem;
+    width: 20.5rem;
 }
 
 .footer-contact-message::placeholder{
     color: #A2A2A2;
+    left: 0.75rem;
     position: absolute;
     top: 1rem;
-    left: 0.75rem;
 }
 
 .footer-btn{
     background: #2A7AE4;
-    color: #FFFFFF;
     border: none;
-    width: 9.5rem;
-    height: 2.5rem;
+    color: #FFFFFF;
+    cursor: pointer;
     font-size: 0.875rem;
     font-weight: 600;
+    height: 2.5rem;
     margin-bottom: 1rem;
-    cursor: pointer;
+    width: 9.5rem;
 }
 
 .footer-copyright{
-    height: 6.37rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     color: #464646;
+    display: flex;
+    flex-direction: row;
+    height: 6.37rem;
+    justify-content: center;
 }
 
 .footer-copyright a{
-    text-decoration: none;
     font-size: 1rem;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
-    .footer-container {
-        margin-top: 98rem;
-    }
-
     .footer-top{
         display: flex;
         justify-content: flex-start;
@@ -135,17 +130,17 @@
     }
 
     .footer-links{
-        float: left;
-        display: flex;
         align-items: flex-start;
+        display: flex;
+        float: left;
         margin-right: 5.87rem;
     }
 
     .footer-contact{
-        position: relative;
-        top: -4.5rem;
         display: flex;
         flex-direction: column;
+        position: relative;
+        top: -4.5rem;
     }
     
     .footer-contact-name,
@@ -156,12 +151,12 @@
 
 @media screen and (min-width: 1440px) {
     .footer-container{
-        width: 100vw;
-        height: 23rem;
+        align-items: flex-start;
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
+        height: 23rem;
         padding-top: 4rem;
+        width: 100vw;
     }
 
     .footer-logo{
@@ -174,9 +169,9 @@
     }
 
     .footer-contact{
-        margin-top: 4.5rem;
         display: flex;
         flex-direction: column;
+        margin-top: 4.5rem;
     }
 
     .footer-contact-name,

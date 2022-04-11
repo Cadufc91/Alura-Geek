@@ -4,6 +4,17 @@
 
 # Changelog
 
+## [3.4.4] 11.04.2020
+
+**Addedd**
+- Login page style
+
+**Changed**
+- Tablet and desktop responsiveness
+
+**Fixed**
+- Total products availability in all screen supports
+
 ## [2.4.4] 05.04.2022
 
 **Added**
